@@ -1,0 +1,34 @@
+* {
+  font-family: "Anta", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  &:hover {
+    color: grey;
+  }
+}
+
+.navbar-nav {
+  font-size: 20px;
+  &:hover {
+    color: black;
+  }
+}
+
+.navbar-nav a:hover {
+  font-size: 24px;
+}
+
+.navbar-nav i {
+  font-size: 24px;
+  &:hover {
+    transform: rotate(360deg);
+    transition: transform 2s;
+  }
+}
+
+a[aria-current="page"] {
+  text-decoration: underline #000;
+  text-decoration-thickness: 0.2em;
+}
