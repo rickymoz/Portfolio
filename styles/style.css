@@ -1,3 +1,8 @@
+:root {
+  --font-size-20px: 20px;
+  --font-size-22px: 22px;
+}
+
 * {
   font-family: "Anta", sans-serif;
 }
@@ -10,18 +15,18 @@
 }
 
 .navbar-nav {
-  font-size: 20px;
+  font-size: var(--font-size-22px);
   &:hover {
     color: black;
   }
 }
 
 .navbar-nav a:hover {
-  font-size: 22px;
+  font-size: var(--font-size-20px);
 }
 
 .nav-item i {
-  font-size: 22px;
+  font-size: var(--font-size-22px);
 }
 
 a[aria-current="page"] {
@@ -35,6 +40,7 @@ a[aria-current="page"] {
   margin-bottom: 25%;
   width: 5px;
   height: 5px;
+  opacity: 50%;
 }
 
 .mousey {
@@ -70,4 +76,8 @@ a[aria-current="page"] {
     transform: translateY(10px);
     opacity: 0;
   }
+}
+
+.project-video {
+  border: 2px solid gray;
 }
