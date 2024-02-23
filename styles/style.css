@@ -17,15 +17,11 @@
 }
 
 .navbar-nav a:hover {
-  font-size: 24px;
+  font-size: 22px;
 }
 
-.navbar-nav i {
-  font-size: 24px;
-  &:hover {
-    transform: rotate(360deg);
-    transition: transform 2s;
-  }
+.nav-item i {
+  font-size: 22px;
 }
 
 a[aria-current="page"] {
