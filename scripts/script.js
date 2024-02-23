@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       html:
         '<div style="text-align: center; font-size: 18px;">' +
         "<p>Feel free to reach out to me!</p>" +
-        '<p style="font-size: 24px; color: #3498db;">+351 938 023 880</p>' +
+        '<p style="font-size: 24px; color: #3498db;">+351 930 000 000</p>' +
         "</div>",
       icon: "info",
       confirmButtonText: `<i class="bi bi-hand-thumbs-up-fill"></i>`,
