@@ -7,6 +7,10 @@
   font-family: "Anta", sans-serif;
 }
 
+.navbar {
+  background-color: #fff;
+}
+
 .container-fluid img {
   width: 2%;
   height: 2%;
@@ -35,9 +39,21 @@
   font-size: var(--font-size-22px);
 }
 
+.bi-linkedin:hover {
+  color: rgb(10, 102, 194);
+}
+
+.bi-whatsapp:hover {
+  color: rgb(2, 169, 88);
+}
+
 a[aria-current=page] {
   text-decoration: underline #000;
   text-decoration-thickness: 0.2em;
+}
+
+.no-border {
+  border: 0 !important;
 }
 
 .principal {
@@ -46,7 +62,7 @@ a[aria-current=page] {
   align-items: center;
   position: relative;
   justify-content: space-between;
-  padding: 7rem 0 10rem 0;
+  padding: 4rem 0 10rem 0;
 }
 
 .principal-text h2 {
@@ -63,12 +79,6 @@ a[aria-current=page] {
 
 .project-video {
   border: 2px solid gray;
-}
-
-@media (min-width: 992px) {
-  .scroll-downs {
-    display: block;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
