@@ -1,0 +1,67 @@
+:root {
+  --font-size-20px: 20px;
+  --font-size-22px: 22px;
+}
+
+* {
+  font-family: "Anta", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  &:hover {
+    color: grey;
+  }
+}
+
+.navbar-nav {
+  font-size: var(--font-size-20px);
+  &:hover {
+    color: black;
+  }
+}
+
+.navbar-nav a:hover {
+  font-size: var(--font-size-22px);
+}
+
+.nav-item i {
+  cursor: pointer;
+  font-size: var(--font-size-22px);
+}
+
+a[aria-current="page"] {
+  text-decoration: underline #000;
+  text-decoration-thickness: 0.2em;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  padding: 7rem 0 10rem 0;
+}
+
+.principal-text h2 {
+  font-size: 10rem;
+}
+
+.projects {
+  padding: 7rem 0 10rem 0;
+}
+
+.project a {
+  color: #000;
+}
+
+.project-video {
+  border: 2px solid gray;
+}
+
+@media (min-width: 992px) {
+  .scroll-downs {
+    display: block;
+  }
+}
