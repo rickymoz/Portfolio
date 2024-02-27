@@ -19,7 +19,7 @@
       rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light p-3">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Ricardo Silva</a>
         <img src="resources/img/ricardo-jesus.png" />
@@ -42,10 +42,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#">About me</a>
+              <a class="nav-link mx-2" href="#about-me">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#">My Projects</a>
+              <a class="nav-link mx-2" href="#my-projects">My Projects</a>
             </li>
           </ul>
           <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
@@ -84,9 +84,18 @@
           <h2>MINDERA SCHOOL</h2>
         </div>
       </div>
+
+      <div class="aboutme">
+        <h1 class="text-center" id="about-me" style="font-size: 60px">
+          About me
+        </h1>
+      </div>
+
       <div class="projects">
         <div class="carousel carousel-dark slide mb-5">
-          <h1 class="text-center" style="font-size: 60px">My Projects</h1>
+          <h1 class="text-center" id="my-projects" style="font-size: 60px">
+            My Projects
+          </h1>
           <div class="project position-relative mt-5">
             <h1>
               Project:
