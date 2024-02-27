@@ -9,16 +9,16 @@
 
 .navbar-brand {
   font-size: 28px;
-  &:hover {
-    color: grey;
-  }
+}
+.navbar-brand:hover {
+  color: grey;
 }
 
 .navbar-nav {
   font-size: var(--font-size-20px);
-  &:hover {
-    color: black;
-  }
+}
+.navbar-nav:hover {
+  color: black;
 }
 
 .navbar-nav a:hover {
@@ -26,58 +26,44 @@
 }
 
 .nav-item i {
+  cursor: pointer;
   font-size: var(--font-size-22px);
 }
 
-a[aria-current="page"] {
+a[aria-current=page] {
   text-decoration: underline #000;
   text-decoration-thickness: 0.2em;
 }
 
-.scroll-downs {
-  margin: auto;
-  margin-top: 8%;
-  margin-bottom: 25%;
-  width: 5px;
-  height: 5px;
-  opacity: 50%;
+.principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  padding: 7rem 0 10rem 0;
 }
 
-.mousey {
-  width: 3px;
-  padding: 10px;
-  height: 20px;
-  border: 2px solid #000;
-  border-radius: 25px;
-  opacity: 0.75;
-  box-sizing: content-box;
+.principal-text h2 {
+  font-size: 10rem;
 }
 
-.scroller {
-  width: 3px;
-  height: 10px;
-  border-radius: 25%;
-  background-color: #000;
-  animation-name: scroll;
-  animation-duration: 2.2s;
-  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
-  animation-iteration-count: infinite;
+.projects {
+  padding: 7rem 0 10rem 0;
 }
 
-@keyframes scroll {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(10px);
-    opacity: 0;
-  }
+.project a {
+  color: #000;
 }
 
 .project-video {
   border: 2px solid gray;
 }
+
+@media (min-width: 992px) {
+  .scroll-downs {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
