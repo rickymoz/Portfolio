@@ -5,7 +5,7 @@ setTimeout(() => {
   secondMessage.show();
 }, 5700);
 
-var myPhoneNumber = document.getElementById("myPhoneNumber");
+var myPhoneNumber = document.getElementById("myPhoneNumber"); //?
 
 myPhoneNumber.addEventListener("click", function () {
   Swal.fire({
