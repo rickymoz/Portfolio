@@ -37,15 +37,15 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link mx-2 active" aria-current="page" href="#"
-                >Home</a
+              <a class="nav-link mx-2" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#aboutme-section">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#myprojects-section"
+                >My Projects</a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#about-me">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#my-projects">My Projects</a>
             </li>
           </ul>
           <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
@@ -86,17 +86,49 @@
       </div>
 
       <div class="aboutme">
-        <h1 class="text-center" id="about-me" style="font-size: 60px">
-          About me
-        </h1>
+        <div class="aboutme-section" id="aboutme-section">
+          <h1 class="text-center">About me</h1>
+        </div>
+        <div class="aboutme-description">
+          <img src="resources/img/ricardo-jesus.png" alt="Placeholder image" />
+          <h2>
+            Ricardo Silva
+            <p>
+              <span class="symbol">&lt;</span>
+              <span class="year">2003</span>
+              <span class="symbol">&gt;</span>
+            </p>
+          </h2>
+          <h3>
+            FE from Portugal
+            <img
+              src="resources/img/portugal-flag-round-circle-icon.svg"
+              alt="PT" />
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            saepe aliquam explicabo cum. Vel voluptatum consequatur,
+            accusantium, labore dolorum sed suscipit atque rem nisi doloremque,
+            culpa adipisci! Atque laudantium officiis tempore nesciunt? Ullam
+            hic dignissimos quo et? Dignissimos quidem, nobis hic quam nostrum
+            aut alias laudantium veniam culpa. Quam voluptatibus sapiente ut
+            quibusdam, veritatis itaque quidem optio sint iusto, rerum ex alias
+            necessitatibus. Impedit, ratione aliquam? Amet magni ducimus dicta
+            sint, laboriosam vel sunt praesentium voluptatem magnam, nobis velit
+            neque expedita perferendis accusantium officiis doloribus cumque
+            deserunt culpa. Corporis eius repellendus nesciunt aperiam quod
+            optio animi quis expedita nam id.
+          </p>
+        </div>
       </div>
 
       <div class="projects">
         <div class="carousel carousel-dark slide mb-5">
-          <h1 class="text-center" id="my-projects" style="font-size: 60px">
-            My Projects
-          </h1>
-          <div class="project position-relative mt-5">
+          <div class="project-title" id="myprojects-section">
+            <h1 class="text-center">My Projects</h1>
+          </div>
+
+          <div class="project-description position-relative mt-5">
             <h1>
               Project:
               <a
@@ -112,21 +144,26 @@
               alt="Memory Game"
               controls></video>
           </div>
+
           <div class="project position-relative mt-5">
-            <h1>
-              Project:
-              <a
-                href="https://github.com/rickymoz/multiplicationTable"
-                target="_blank"
-                >Multiplication table</a
-              >
-            </h1>
-            <p>Languages used: HTML | CSS | JS</p>
-            <video
-              src="resources/video/multiplcationTable.mov"
-              class="project-video video-placeholder d-block w-100 rounded-3"
-              alt="Multiplication Table"
-              controls></video>
+            <div class="project-description">
+              <h1>
+                Project:
+                <a
+                  href="https://github.com/rickymoz/multiplicationTable"
+                  target="_blank"
+                  >Multiplication table</a
+                >
+              </h1>
+              <p>Languages used: HTML | CSS | JS</p>
+            </div>
+            <div class="iframe-container">
+              <iframe
+                src="https://rickymoz.github.io/multiplicationTable/"
+                width="100%"
+                height="100%"
+                scrolling="no"></iframe>
+            </div>
           </div>
         </div>
       </div>
