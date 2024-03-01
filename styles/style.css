@@ -139,6 +139,10 @@
 .project-description a {
   color: #000;
 }
+.project-description a:hover {
+  border-bottom: 10px solid transparent;
+  transition: border-bottom 0.4s ease-in-out;
+}
 
 .iframe-container {
   position: relative;

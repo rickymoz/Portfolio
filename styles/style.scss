@@ -138,6 +138,11 @@
 
 .project-description a {
   color: #000;
+
+  &:hover {
+    border-bottom: 10px solid transparent;
+    transition: border-bottom 0.4s ease-in-out;
+  }
 }
 
 .iframe-container {
