@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Portfolio 👋</h1>
+<h1 align="center">Welcome to my Portfolio 👋</h1>
 
 This minimalist portfolio is built with HTML, CSS preprocessed with SASS, and JavaScript. It utilizes Bootstrap for a responsive layout and leverages clean and simple design principles to effectively showcase my projects. The emphasis is on presenting information in a clear and concise manner, allowing viewers to easily navigate and understand my work.
 
